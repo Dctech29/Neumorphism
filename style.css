@@ -14,13 +14,14 @@ body {
     background-color: #f2f3f7;
 }
 
-a {
+button {
+    border: none;
     margin: 20px;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    font-size: 50px;
+    font-size: 20px;
     font-weight: 600;
     color: rgb(33, 33, 33);
     border-radius: 40px;
@@ -28,6 +29,6 @@ a {
     box-shadow: -2px -2px 8px rgba(255, 255, 255, 1), -2px -2px 12px rgba(255, 255, 255, 0.5), inset 2px 2px 4px rgba(255, 255, 255, 0.1), 2px 2px 8px rgba(0, 0, 0, 0.15);
 }
 
-a:active {
+button:active {
     box-shadow: inset -2px -2px 8px rgba(255, 255, 255, 1), inset -2px 12px rgba(255, 255, 255, 0), inset 2px 2px 4px rgba(255, 255, 255, 0.1), inset 2px 2px 8px rgba(0, 0, 0, 0.15);
 }
