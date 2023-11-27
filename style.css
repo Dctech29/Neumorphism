@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #f2f3f7;
+}
+
+a:nth-child(1) {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(33, 33, 33);
+    border-radius: 40px;
+    padding: 15px 20px;
+    box-shadow: -2px -2px 8px rgba(255, 255, 255, 1), -2px -2px 12px rgba(255, 255, 255, 0.5), inset 2px 2px 4px rgba(255, 255, 255, 0.1), 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+a:nth-child(1):active {
+    box-shadow: inset -2px -2px 8px rgba(255, 255, 255, 1), inset -2px 12px rgba(255, 255, 255, 0), inset 2px 2px 4px rgba(255, 255, 255, 0.1), inset 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
